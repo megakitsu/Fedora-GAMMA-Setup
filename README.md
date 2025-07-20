@@ -8,6 +8,7 @@
 - This is not meant to be an educational guide of any sorts, this is simply the steps I use to get Stalker GAMMA up and running on a Fedora Linux installation.
 - I use GNOME, this *should* work on KDE or other DE.
 - Although this was written with Fedora in mind, it may work with other distributions as I'm using the Flatpak version of Bottles.
+- There is a MUCH more comprehensive guide by Red007Master [here](https://github.com/Red007Master/Red-s-Guide-on-Installing-G.A.M.M.A.-on-Linux) that explains everything better than I have here and has a video to follow along with...
 
 ---
 
@@ -101,5 +102,14 @@ source env/bin/activate
 gamma-launcher purge-shader-cache --anomaly ./AnomalyGAMMA
 ```
 
-Thanks for reading!
+## Thanks for reading!
+
+Huge thanks to: 
+
+- Grok and Team for [Stalker GAMMA](https://github.com/Grokitach/Stalker_GAMMA)
+- Mord3rca for [gamma-launcher](https://github.com/Mord3rca/gamma-launcher)
+- Red007Master for [Red's guide on Installing G.A.M.M.A. (Anomaly modpack) on Linux.](https://github.com/Red007Master/Red-s-Guide-on-Installing-G.A.M.M.A.-on-Linux)
+
+
+
 
