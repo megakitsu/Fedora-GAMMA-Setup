@@ -53,11 +53,11 @@ Create a new 'Bottle' named GAMMA with the 'Gaming' preset, use the following se
 
 - Runner:                   Latest ge-proton
 - DXVK:                     Latest dxvk-gplasync
-- VKD3D:                    Latest vk3d-proton
+- VKD3D:                    Disabled
 - Monitor Performance:      Enabled (If you use MangoHud)
 - Feral GameMode:           Enabled
 - Steam Runtime:            Disabled
-- Dependencies:             d3dcompiler_46 d3dx11 d3dx9 dx8vb quartz vcredist2022
+- Dependencies:             d3dx11 vcredist2022
 - Add Shortcuts...          ~/Games/Stalker/GAMMA/ModOrganizer.exe
 
 ## Mod Organizer 2 Setup
