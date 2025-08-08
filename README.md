@@ -21,6 +21,13 @@ flatpak install flathub com.usebottles.bottles
 sudo flatpak override com.usebottles.bottles --filesystem=host
 ```
 
+## Install MangoHud (optional)
+
+```
+flatpak install -y org.freedesktop.Platform.VulkanLayer.MangoHud
+flatpak override --user --filesystem=xdg-config/MangoHud:ro
+```
+
 ## Install gamma-launcher
 
 Here we are creating a directory where you will install GAMMA and gamma-launcher, Enter into terminal:
