@@ -12,11 +12,15 @@
 
 ---
 
-## Install Bottles
+## Enable flatpak/flathub & install Bottles
 
 Enter into a terminal:
 
 ```
+sudo dnf install -y flatpak
+flatpak remote-delete fedora
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak update --appstream
 flatpak install flathub com.usebottles.bottles
 sudo flatpak override com.usebottles.bottles --filesystem=host
 ```
