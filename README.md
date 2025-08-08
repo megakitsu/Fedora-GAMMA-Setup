@@ -54,6 +54,12 @@ cd ~/Games/Stalker
 gamma-launcher full-install --anomaly ./AnomalyGAMMA --gamma ./GAMMA --cache-directory ./cache
 ```
 
+## Remove ReShade (optional)
+
+```
+gamma-launcher remove-reshade --anomaly ./AnomalyGAMMA
+```
+
 ## Bottles Settings
 
 Create a new 'Bottle' named GAMMA with the 'Gaming' preset, use the following settings:
@@ -79,7 +85,7 @@ From your GAMMA Bottle, run the ModOrganizer shortcut:
 - Ignore Error
 - No, don't ask again to Tutorial
 
-## (Optional) dxvk-gplasync Setup
+## dxvk-gplasync setup (optional)
 
 This next section might be placebo, might not, all I can say is my game runs *very* smooth!
 
